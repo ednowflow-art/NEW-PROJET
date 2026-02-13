@@ -18,6 +18,7 @@ int x,n,somme,cpt;
      }
  }
   moyenne= somme/cpt;
+  printf("la moyenne est : %f",moyenne)
  return 0;
 
 
