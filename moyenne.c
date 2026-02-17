@@ -15,10 +15,16 @@
          if(x%2==0){
             somme= somme+x;
             cpt++;
-         }
-     }
       moyenne= somme/cpt;
       printf("la moyenne des nombres pair est : %f",moyenne);
+         }
+         if(x%2!=0){
+            somme= somme+x;
+            cpt++;
+            moyenne= somme/cpt;
+      printf("la moyenne des nombres pair est : %f",moyenne);
+         }
+     }
 
 
 
